@@ -1,30 +1,35 @@
 body, html {
-  background-color: violet;
+  background-color: #c5add4;
+  font-family: Helvetica;
+  margin: 0 auto;
+  text-align: center;
 }
 
-body li {
+body ul {
+  padding: 0;
+}
+
+body ul li {
   list-style-type: none;
-  float: left;
+  display: inline;
+  padding: 20px;
 }
 
 body a {
   text-decoration: none;
+  position: relative;
 }
 
 .container {
   background: white;
-  border: 10px solid black;
+  border: 1px solid black;
   width: 300px;
   min-height: 200px;
+  margin: 15% auto;
+  padding-top: 20px;
   padding-bottom: 50px;
-  margin: 0 auto;
-  padding: 10px;
 }
 
 .container h1 {
   text-align: center;
-}
-
-.container li {
-  padding-right: 15px;
 }
